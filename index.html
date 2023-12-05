@@ -11,11 +11,17 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
     <script>
-        const header  = document.createElement('h1');
-        header.innerHTML = "Hello From HTML";
+        // const header  = document.createElement('h1');
+        // header.innerHTML = "Hello From HTML";
 
-        const root = document.getElementById("root");
-        root.append(header);
+        // const root = document.getElementById("root");
+        // root.append(header);
+
+        const header  = React.createElement("h1",{},"Hello From React Js");
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        root.render(header);
 
     </script>
     
