@@ -1,5 +1,5 @@
-
-
+import React from 'react';
+import ReactDOM  from 'react-dom';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // creating a dom tree using React.createElement(), actually createElement takes three arguement first onr is the tag, second is the attribute and the third one is the content.
