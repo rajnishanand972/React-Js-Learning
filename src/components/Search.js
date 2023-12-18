@@ -1,9 +1,14 @@
-const Search = () => {
-    return (
-        <div className='search'>
-          <h2>Search</h2>
-        </div>
-    );
-}
+// const Search = () => {
+//     return (
+//         <div className='search'>
+//           <input className="search-box" placeholder="Search for restaurents and Foods"></input>
+//           <button className="search-btn" onClick={
+//             {
+      
+//             }
+//           }>Search</button>
+//         </div>
+//     );
+// }
 
-export default Search;
+// export default Search;
